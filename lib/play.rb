@@ -41,5 +41,6 @@ def play(board)
   position_taken = 1
   until position_taken == 9
     turn(board)
+    position_take += 1
   end
 end
